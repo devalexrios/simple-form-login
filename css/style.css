@@ -1,0 +1,33 @@
+@font-face {
+	src: url('./font/baloo-2/Regular.ttf');
+	font-family: 'ff-baloo-2-regular';
+}
+
+@font-face {
+	src: url('./font/baloo-2/Medium.ttf');
+	font-family: 'ff-baloo-2-medium';
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	user-select: none;
+}
+
+html {
+	font-size: 3vmin;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	background: #f8f8f8;
+}
